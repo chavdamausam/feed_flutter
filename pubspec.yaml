@@ -1,0 +1,46 @@
+name: flutterinstaapp
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  video_player: ^2.2.18
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/images/feeds/
+     - assets/images/users/
+     - assets/images/story/
+     - assets/images/tabs/
+     - assets/images/feeds/feeds.mp4
+
+  fonts:
+    - family: 'regular'
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: 'medium'
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: 'semi-bold'
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: 'bold'
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
